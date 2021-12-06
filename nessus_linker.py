@@ -57,7 +57,7 @@ def password_check(password, password2):
 	else:
 		return False
 
-# Check the platform to see whether or not to zip the workbook	
+# Zips and password protects the modified XLSX files.	
 def zipup(workbooks, multi):
 	modified_results = f'{HOME}/ScanResults/ModifiedResults'
 	workbooks = workbooks
