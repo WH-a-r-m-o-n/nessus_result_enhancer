@@ -25,7 +25,7 @@ HOME = Path.home()
 def banner():
 	print("########################################################################################")
 	print("#                     Nessus CSV Report Beautifier and Zip                             #")
-	print("#                           by Will Harmon (h3ss1an)                                   #")
+	print("#                                by Will Harmon                                        #")
 	print("#                                                                                      #")
 	print("# This script converts Nessus scan results from CSV to XLSX, and adds a hyperlink to   #")
 	print("# the plugin-id values so admins can click for additional details from Tenable web-    #")
